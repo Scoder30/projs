@@ -1,0 +1,68 @@
+<!--
+    Tables:
+    Tables are used to arrange data in terms of rows and columns
+    Each row or column is called as a cell
+    The data in the table can inserted with the help of the this tags
+    1.<tr> tags it used as table row(horizontal line)
+        2.<td> tags used to enter the data in the cells
+        3.<th> table heading. makes the text bold and arranges the text in center
+    
+    mergeing of row or columns is done with the attributes rowspan and colspan
+    border atrribute in table is used for borders        
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th rowspan="3">day</th>
+            <th colspan="3"> Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+           <th rowspan="2"  >Topic</th> 
+        </tr>
+        <tr>
+            <td>Begin</td>
+            <td>end</td>
+            
+        </tr>
+        <tr>
+            <th rowspan="2">Monday</th>
+            <td rowspan="2">8:00AM</td>
+            <td rowspan="2">5:00PM</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity:DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Tuesday</th>
+            <td>8:00AM</td>
+            <td>11:00AM</td>
+            <td rowspan="2">X Path</td>
+        </tr>
+        <tr>
+            <td>11:AM</td>
+            <td>2:00PM</td>
+        </tr>
+        <tr>
+            <td>2:00PM</td>
+            <td>5:00PM</td>
+            <td>XLS Transformations</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>8:00AM</td>
+            <td>12:00PM</td>
+            <td>XSL Fomatting Objects</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

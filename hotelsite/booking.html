@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+   
+    <style>
+        .form{
+            margin-left: 30%;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <form action="aaa.php" method="get">
+        <fieldset>
+            <legend>Book your stay</legend>
+            <div>
+        <label for="Hotels">Select a Hotel</label>
+        <select name="Hotels" id="Hotels">
+        <option value="volvo">Hyderabad</option>
+        <option value="saab">Chennai</option>
+        <option value="mercedes">Bengaloru</option>
+  
+</select>
+</div><br>
+<div>
+<label for="from">From:</label>
+<input type="date" id="from" name="form"></div><Br>
+    <div>
+<label for="to">To:</label>
+<input type="date" id="To" name="To"></div><br>
+<div>
+
+<label for="roms">Select your room</label>
+
+<select name="rooms" id="rooms">
+  <option value="King Room">King Room</option>
+  <option value="Standard Room">Standard</option>
+  <option value="Deluxe">Deluxe</option>
+  <option value="Suite">Suite</option>
+</select>
+</div>
+<br>
+<div>
+<label for="Adults">Adults:</label>
+<input type="number" id="Adults" name="Adults" min="1" max="5"></div>
+<br>
+    <div>
+<label for="Child">Child:</label>
+<input type="number" id="quantity" name="Child" min="1" max="5"></div>
+<div><br>
+<button type="submit" style="background-color: #E4A11B;">Submit</button></div>
+        </fieldset>
+    </form>
+   
+</body>
+</html>

@@ -1,0 +1,92 @@
+.main{
+    width: 100vw;
+    margin-left: 5px;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: brown;
+    font-size: larger;
+    width: 100vw;
+}
+h3{
+color: brown;
+font-size: large;
+}
+h5{
+    font-size: large;
+color: brown;
+}
+h2{
+    color: brown;
+    font-size: large;
+
+}
+.main{
+    background-color: #DBC9FA  ;
+    background-image: linear-gradient(to right , #DBC9FA,rgb(255, 184, 191));
+    width: vp;
+    height: vp;
+    
+    
+}
+.text{
+    background-color: rgb(255, 184, 191);
+    background-image: linear-gradient(to right , rgb(255, 184, 191),#DBC9FA);
+   
+}
+.album{
+  text-decoration: none;
+  padding: 2px;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:active{
+    background-color: brown;
+  }
+  a:visted{
+    background-color: #0d0d0d;
+  }
+}
+.carrer{
+    background-image: linear-gradient(to right , rgb(255, 184, 191),#DBC9FA);
+    padding: 2px;
+
+}
+.tour{
+    background-image: linear-gradient(to right , rgb(255, 184, 191),#DBC9FA);
+    padding: 2px;
+}
+.tickets{
+    background-image: linear-gradient(to right , rgb(255, 184, 191),#DBC9FA );
+    background-image: linear-gradient(to left ,#dbc9fa,rgb(255, 184,191));
+    
+}
+.btn:hover{
+    background-color: #f99dbc;
+    border-color: #c154c1;
+}
+.love{
+    background-image: url(../assets/2018-taylor-swift-9v.jpg);
+    height: 1300px;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.love1{
+    background-image: linear-gradient(to right , rgb(255, 184, 191),#DBC9FA);
+    padding: 2px;
+    
+
+}
+.life{
+    padding: 2px;
+}
+.about{
+    padding: 2px;
+}
+.pack::first-letter{
+    font-size: 150px;
+}

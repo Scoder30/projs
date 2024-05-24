@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaylorSwift</title>
+</head>
+<body>
+    <form action="main.php" method="get">
+        <fieldset>
+            <legend>Registration</legend>
+    
+        <div>
+        <label for="Name">Name</label>
+        <input type="text" name="Name" id="Name" required></div><br>
+        <div>
+        <label for="Age">Age</label>
+        <input type="number" name="age" id="Age"></div><br>
+        <div>
+            <label>Gender</label>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Others">
+            <label for="Other">Others</label>
+        </div><br>
+        <div>
+            <label for="Place">Place</label>
+            <input type="text" name="place" id="Place">
+        </div><br>
+        <div>
+            <label for="Email"> *Email</label>
+            <input type="email" name="email" id="Email" required >
+            <br><br>
+            <label for="psd">Password</label>
+            <input type="password" name="password" id="psd" pattern="[A-Z]{1}+[a-z0-9]{1,}"><br><br>
+            <label for="conpsd">Confirm Passord</label>
+            <input type="password" name="ConPsw" id="conpsd" pattern="[A-Z]{1}+[a-z0-9]{1,}" >
+        </div><br>
+        <div>
+            <label for="Phoneno">Phone No</label>
+            <input type="tel" name="phone" id="Phoneno">
+        </div><br>
+        <button type="submit">submit</button>
+        <a href="./main.html">
+            <button>next</button>
+        </a>
+        </fieldset>
+    </forms>
+    
+    
+</body>
+</html>

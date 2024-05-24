@@ -1,0 +1,50 @@
+.box{
+    width: 25%;
+    height: 200px;
+    margin: 5%;
+}
+.one{
+    background-color: blue;
+    /* transition:width 5s background-color 5s; */
+}
+.one:hover{
+    /* transform: translate(50%, -50%); */
+    /* transform: translate(50%); */
+    /* transform: rotate(45deg); */
+    /* transform: rotateY(45deg); */
+    
+    transform: rotate(45deg);
+    background-color: black;
+}
+.two{
+    background-color: red;
+    transition: 2s;
+    /* transition: width 4s; */
+}
+.two:hover{
+    /* transform: scale(1.5);/* 1.5*width and height*/
+    transform: perspective(100px) scale(1.5,1.3);
+    transform: scaleX(1.2);
+    transform: scaleY(1.4); 
+    transform:skew(45deg,50deg) ;
+    background-color: brown;
+
+}
+
+/*
+4 types of tranmsforms
+1.translate()- moving towards axis-x or from axis-y
+2.scale()-manipulate based on height and width
+3.rotate()- rotates in degrees
+4.skew()-slant the element
+
+*/
+/*
+Transition timing function
+1.ease(slow-fast-slow)
+2.ease-in(slow-constant speed)
+3.esae-out(constant speed-slow)
+4.ease-in-out(slow-fast-slow)
+5.linear(default-trasition with same speed)
+delay(after how long the transition should happen)
+*/

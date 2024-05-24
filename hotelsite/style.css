@@ -1,0 +1,33 @@
+.forms{
+    border: 4px solid; 
+    justify-content: center;
+ margin-left: 40% ;
+ margin-top: 12%;
+    width: 400px;
+    height: 350px;
+}
+.form-group label{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.form-group input{
+    width: 350px;
+   
+    margin-left: 15px;
+}
+.form-group small{
+    margin-left: 15px;
+}
+.form-check{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.form-group button{
+    margin-left: 25px;
+}
+.bottom {
+    
+}
+

@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --green:#386f83;
+    --txt:#bb9271;
+    --pink:#cc6b96;
+    --lav:#813c60;
+    scroll-behavior: smooth;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #bb9271;
+    scroll-behavior: smooth;
+    font-family: "PT Sans", sans-serif;
+    
+    
+}
+hr{
+    color: var(--pink);
+}
+#head{
+    display: flex;
+    height: max-content;
+    width: 100%;
+    padding-top: 20px;
+    background-color: var(--lav);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+    position: fixed;
+
+    
+}
+img{
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.list ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 800px;
+    gap:30px;
+    padding-top: 10px;
+    color: white;
+    list-style-type: none;
+    
+
+
+    
+}
+.list a{
+    text-decoration: none;
+    text-decoration-color:white;
+}
+a:hover{
+    text-decoration-color: wheat;
+
+}
+a:visited{
+    text-decoration: whitesmoke;
+}
+
+#banner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 45%;
+    /* margin-right: 50%; */
+    margin-top: 70px;
+}
+#banner h1{
+   
+    font-size: 90px;
+   margin-left: 16%;
+   margin-top: 20px;
+   color: white;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#banner p{
+    margin-top: 10px;
+    margin-left: 25%;
+    font-size: 25px;
+    color: white;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+#banner .para{
+    margin-left: 40%;
+}
+#banner button{
+    float: left;
+    margin: 2px;
+    margin-right: 20px;
+    background-color:var(--lav);
+    color: silver;
+    border-radius: 0% 30% 0% 30%;
+    box-shadow: var(--lav);
+    border: none;
+    cursor: grab;
+    transition: 0.2s ease-in-out;
+
+}
+#banner button :hover{
+    transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+#banner .one{
+    width: 90px;
+    height: 25px;
+    
+}
+#banner .two{
+    width: 90px;
+    height: 25px;
+}
+#banner .three{
+    width: 90px;
+    height: 25px;
+    text-decoration: none;
+}
+#about img{
+    width: 50%;
+    height: 300px;
+    margin-top: 30px;
+    /* margin-left: 50%; */
+    float: right;
+    margin-left: 10px;
+    box-shadow: 100px var(--lav);
+    border-radius: 30px 30px 30px 30px;
+    transition: box-shadow 0.5s ease;
+     filter: drop-shadow(8px 8px 16px var(--lav)); 
+    
+
+}
+.image::hover { 
+    box-shadow: 6px 6px 12px var(--lav); }
+#about p{
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: justify;
+    color:silver;
+    font-weight: 200;
+    margin-left: 15px;
+}
+#songs dl{
+    margin-left: 15px;
+    color: silver;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 200;
+    margin-left: 15px;
+
+}
+table{
+    margin-left: 15px;
+    box-shadow: var(--lav);
+    border: none;
+    background-color:var(--lav) ;
+    color: silver;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 200;
+    margin-left: 15px;
+    
+
+}
+#awards{
+    margin-left: 20px;
+    color: silver;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 200;
+    margin-left: 15px;
+    list-style-type: none;
+}
+#footer p{
+    background-color: var(--lav);
+    text-align: center;color: white;
+    /* position: fixed; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    margin-top: 50%;
+}
+
+     
+  @media(max-width:780){
+    header{
+        width: 800vw;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #banner.para{
+        margin-left: 200px;
+    }
+    }
+
+

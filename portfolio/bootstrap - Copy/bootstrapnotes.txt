@@ -1,0 +1,112 @@
+/*
+Intro:-
+It is a css frame work
+2.It is css library
+3.It makes work easy,by importing library and to make work easy
+adv
+1.every element in html has an different styles,in bootstrap 
+It can be modified based on devp requirment
+2 ways to apply in our website:
+1.dowland bootstap from getbootstap(offical site)
+2.cdn(content delivery network)-which definietly needs internet
+
+
+
+Typography:-
+text formatting using and avaliable from bootstap
+Reboot:html tags by default will have styling and this reboot tells about their changes in bootstap
+typography:incudes global settings,heading
+1.heading
+a.customised heading:text-muted(kind of light font with grey )text-muted is used for tag small
+2.apart from 6 headings bootstrap provides other headings with class -display-1,display-2...display-6
+3.we basically use heading tags for heading ,for headings kind of style we can also use class-h1 .same style can be used
+class-lead:used to diffriention btw two paragraph (basically thick font comapare to normal text)
+inline-text element:mark(highligt) will be using in class mark as a tag
+del-strick
+abbr-for abbrivartion
+class-initialize makes the font small in abb
+class-blockquotes-used for quotions
+class-blockqoute-footer:differnt style
+
+
+text-aligment:there are four types 
+1.text-center
+2.text-end
+3.text-justify
+4.text-uppercase
+5.text-lowecase
+6.text-captalize
+in ul if dont want any kind of decorations(bulltels)we use a class list-unstyled
+in ul li elements come like list but in bootstam we can get them side by side with the help of the class list-inline and for li use the class list-inline-item
+
+
+
+colors:-
+primary-blue
+secondary-grey
+sucess-green
+danger-red
+warning-yellow
+info-aquablue
+light-white
+dark-black
+text-primary(text applies with blue)
+bg-info(background color aquablue)
+
+
+
+Tables:-
+4 types of bootstap tables are available
+1.basic:
+class-table
+2.for colors
+class-table table-dark
+3.for head dark
+class-table-dark in head tag i.e th tag
+4.stripped table(zebra row)
+class-table table-stripped(for dark add table-dark class)
+bordered table and non bordered table
+class-table-bordered
+class-table-borderedless(for no border)
+hoverable table:
+for hovering effect use class-table-hover table-dark(for colors while hovering)
+class-table-primary gives the color bule ,for one particular row, use this class in the specified row
+for particular cell use the class in td tag
+
+
+
+list:-
+1.list -1
+class-list-group
+for li class-list-group-items
+2.for active list element
+use class-active
+use class-disabled for disabling
+actionable list group with hover or disable or enable...
+use class-list-group in div
+and next for child use class-list-group-item list-group-item-action(can be used in a tags)
+class-list-group-flush(remove borders to render)
+for colors-class-list-group-item-primary
+
+badges:
+for li use class  d-flex justify-content-between aligin-item-center
+class-badge
+
+
+
+images:-class-img-fludi(widhth and height based on the parent )
+class-rounded-circle(for circle img)
+class-img-thumbnail(nice border and look for the image)
+for border radius use class-rounded
+class-rounded pill( img looks more like a pill)
+
+
+forms:
+class-form-control in input text field
+for width use class w-50(50%of web page)
+
+
+two classes in bootstrap
+1.container:will have margin with left and right
+2.container-fluid:no margins or padding
+*/
